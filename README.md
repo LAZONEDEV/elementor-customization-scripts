@@ -10,4 +10,4 @@ Below is the list of available scripts
 
 This script create a scrollbar indicator that show the progress of the specified slider
 
-[Reade more](./scripts/scrollbar-slider-indicator//README.md)
+[Read more](./scripts/scrollbar-slider-indicator//README.md)
