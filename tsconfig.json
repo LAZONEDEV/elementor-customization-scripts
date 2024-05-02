@@ -6,6 +6,7 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./*"],
+      "@/slider-bar-indicator/*": ["./scripts/scrollbar-slider-indicator/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
