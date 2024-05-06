@@ -11,6 +11,12 @@ export default defineConfig({
         ),
       },
       {
+        find: "@/slider-remote-nav",
+        replacement: fileURLToPath(
+          new URL("./scripts/remote-slider-navigation-handler", import.meta.url)
+        ),
+      },
+      {
         find: "@",
         replacement: fileURLToPath(new URL("./", import.meta.url)),
       },
