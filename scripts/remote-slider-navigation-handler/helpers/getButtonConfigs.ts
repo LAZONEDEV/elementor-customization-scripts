@@ -3,7 +3,6 @@ import {
   REMOTE_NAVIGATION_DIRECTION,
   SLIDER_ID,
 } from "@/slider-remote-nav/constants/attributesNames";
-import { NavigationDirection } from "../types";
 import { validNavigationDirections } from "../constants/directions";
 import { Swiper } from "@/types/swiper";
 
