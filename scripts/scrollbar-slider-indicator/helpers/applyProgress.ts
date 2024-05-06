@@ -5,8 +5,7 @@ export const applySliderProgressToTrack = (
   track: HTMLDivElement,
   swiperInstance: Swiper
 ) => {
-  const { activeIndex, slideCount } =
-    getSliderState(swiperInstance);
+  const { activeIndex, slideCount } = getSliderState(swiperInstance);
 
   applyProgress(activeIndex, slideCount, track);
 };
