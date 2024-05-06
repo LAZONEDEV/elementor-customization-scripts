@@ -12,6 +12,9 @@ export const initScrollbar = (wrapper: HTMLDivElement) => {
     : null;
 
   if (!sliderInstance) {
+    console.error(
+      `No slider instance found for component with id:${config.sliderId}`
+    );
     return;
   }
 
