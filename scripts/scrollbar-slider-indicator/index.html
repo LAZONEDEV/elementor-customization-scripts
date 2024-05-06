@@ -80,6 +80,7 @@
       data-scrollbar-bg="red"
       data-scrollbar-track-color="blue"
       data-slider-id="test-slider"
+      data-scrollbar-height="2px"
     ></div>
 
     <!-- Swiper JS -->
@@ -96,7 +97,10 @@
 
     <script>
       const sliderElement = document.querySelector(".mySwiper");
-      const swiper = new Swiper(sliderElement, { slidesPerView: 1 });
+      const swiper = new Swiper(sliderElement, {
+        slidesPerView: 1,
+        loop: true,
+      });
       jQuery(sliderElement).data("swiper", swiper);
     </script>
 

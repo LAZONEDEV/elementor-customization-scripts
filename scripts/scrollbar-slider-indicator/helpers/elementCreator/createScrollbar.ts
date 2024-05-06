@@ -7,7 +7,10 @@ export const createScrollbar = (
   sliderPerView: number,
   config: ScrollbarConfig
 ) => {
-  const scrollbarBox = createScrollbarBox(config.scrollbarColor);
+  const scrollbarBox = createScrollbarBox(
+    config.scrollbarColor,
+    config.scrollbarHeight
+  );
   const track = createScrollbarTrack(
     slideCount,
     sliderPerView,
